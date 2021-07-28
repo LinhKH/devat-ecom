@@ -16,6 +16,7 @@ app.use(fileupload({
 // Routes
 app.use('/user', require('./routes/userRouter'));
 app.use('/api', require('./routes/categoryRouter'));
+app.use('/api', require('./routes/upload'));
 
 app.post('/upload', (req, res) => {
     if (req.files === null) {
