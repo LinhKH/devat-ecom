@@ -1,4 +1,4 @@
-header {
+header{
     min-height: 70px;
     width: 100%;
     overflow: hidden;
@@ -8,34 +8,34 @@ header {
     align-items: center;
     border-bottom: 1px solid #ddd;
 }
-header .logo {
+header .logo{
     flex: 1;
 }
-header a {
+header a{
     text-transform: uppercase;
     color: #555;
 }
-header ul li {
+header ul li{
     display: inline-block;
     opacity: 0.7;
     padding: 0 20px;
 }
-header ul li:hover {
+header ul li:hover{
     opacity: 1;
 }
-.menu {
+.menu{
     display: none;
 }
-.cart-icon {
+.cart-icon{
     position: relative;
     margin-right: 20px;
 }
-.cart-icon span {
+.cart-icon span{
     background: crimson;
     border-radius: 20px;
     color: white;
     position: absolute;
-    top: -10px;
+    top:-10px;
     right: -10px;
     padding: 5px 7px;
     font-size: 10px;

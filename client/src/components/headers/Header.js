@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header>
             <div className="menu">
-                <i class="fas fa-bars" width="30"></i>
+                <i className="fas fa-bars" width="30"></i>
             </div>
             <div className="logo">
                 <h1>
@@ -18,13 +18,13 @@ const Header = () => {
                 <li><Link to="/">Products</Link></li>
                 <li><Link to="/login">Login | Register</Link></li>
                 <li>
-                    <i class="fas fa-times" width="30" className="menu"></i>
+                    <i className="fas fa-times" width="30" className="menu"></i>
                 </li>
             </ul>
             <div className="cart-icon">
                 <span>0</span>
                 <Link to="/cart">
-                    <i class="fas fa-cart-plus" width="30"></i>
+                    <i className="fas fa-cart-plus" width="30"></i>
                 </Link>
             </div>
         </header>
